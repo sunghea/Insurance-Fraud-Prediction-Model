@@ -25,3 +25,6 @@ https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data
 
 ## Limitations
 - Amad
+
+## Presentation
+![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/dc7ee556-73ed-460e-af3f-e211c3cd9cbc)
