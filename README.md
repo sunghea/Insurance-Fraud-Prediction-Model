@@ -3,11 +3,12 @@ Final Project for Data Analytics Boot Camp
 
 ## Description of the Project 
 
-This project aims to exa
+Inspiration
+We can use this data to solve following use case:
 
-The analysis we're going to do is: 
-
-The questions we're going to answer are: 
+Claim Level Fraud Detection.
+Employee Fraud Detection
+Employee Vendor Collusion
 
 
 ## Datasets used: 
