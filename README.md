@@ -6,10 +6,7 @@ Final Project for Data Analytics Boot Camp
 ABC Insurance has requested you, as a data analyst, to build a model for identifying the risk of insurance fraud using their historical claims activity dataset. 
 They aim to establish an insurance fraud management system.
 
-
-this data to solve following use case:
-Claim Level Fraud Detection.
-This project aims to identify the most suitable insurance fraud detection model for the insurance company receiving the data and develop an application based on it. The app.py file will display the risk of insurance fraud when a customer files an insurance claim.
+Part 1: Extract from Excel
 
 Insurance fraud can be committed by agents, customers, and vendors, either individually or in collusion.
 
