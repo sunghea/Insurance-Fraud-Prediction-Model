@@ -10,13 +10,10 @@ Part 1: Extract from Excel
 
 Insurance fraud can be committed by agents, customers, and vendors, either individually or in collusion.
 
-Is it possible to create a model to detect customers with a high likelihood of insurance fraud?
-Is it possible to create a model to detect employees with a high likelihood of insurance fraud?
-Is it possible to create a model to detect vendors with a high likelihood of insurance fraud?
-
+** Would you trust this model to detect if a fraud will be detected?**
 
 ## Datasets used: 
-https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data
+[https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data](https://www.kaggle.com/code/niteshyadav3103/insurance-fraud-detection-using-12-models/input)
 
 ## Code snippets
 
