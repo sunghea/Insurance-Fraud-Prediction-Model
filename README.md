@@ -10,7 +10,7 @@ They aim to establish an insurance fraud management system.
 
 Part 1: Extract from Excel
 
-# ** handle missing values and "?" values:**
+** handle missing values and "?" values:**
 
 - Replace missing values in the authorities_contacted column with "Other".
 - Replace "?" values in the collision_type column with "Other" if incident_severity is "Trivial Damage" or "Minor Damage".
