@@ -1,58 +1,99 @@
+## Insurance Claims Fraud Detection
 
-# Insurance Fraud Prediction Model
-Final Project for Data Analytics Boot Camp
+This project aims to predict insurance claims fraud using machine learning algorithms. The dataset used in this project is obtained from Kaggle and contains information about insurance claims, including policy details, incident details, and whether the claim was fraudulent or not.
 
--- TBD  ---
+### Dataset Overview
 
-## Background 
-ABC Insurance has requested you, as a data analyst, to build a model for identifying the risk of insurance fraud using their historical claims activity dataset. 
-They aim to establish an insurance fraud management system.
+The dataset consists of the following columns:
 
-Part 1: Extract from Excel
+- 'months_as_customer': Number of months as a customer
+- 'age': Age of the customer
+- 'policy_annual_premium': Annual premium of the insurance policy
+- 'insured_sex': Gender of the insured (0: Female, 1: Male)
+- 'insured_education_level': Education level of the insured
+- 'insured_relationship': Relationship of the insured with policyholder
+- 'capital-gains': Capital gains recorded
+- 'capital-loss': Capital losses recorded
+- 'incident_type': Type of incident
+- 'collision_type': Type of collision
+- 'incident_severity': Severity of the incident
+- 'authorities_contacted': Authorities contacted after the incident
+- 'incident_hour_of_the_day': Time of the incident (hour of the day)
+- 'number_of_vehicles_involved': Number of vehicles involved in the incident
+- 'property_damage': Property damage (YES/NO)
+- 'bodily_injuries': Number of bodily injuries in the incident
+- 'witnesses': Number of witnesses to the incident
+- 'police_report_available': Availability of the police report (YES/NO)
+- 'total_claim_amount': Total claim amount
+- 'injury_claim': Claim amount for injuries
+- 'property_claim': Claim amount for property damage
+- 'vehicle_claim': Claim amount for vehicle damage
+- 'fraud_reported': Whether the claim was fraudulent (YES/NO)
 
-** handle missing values and "?" values:**
+### Data Preprocessing
 
-- Replace missing values in the authorities_contacted column with "Other".
-- Replace "?" values in the collision_type column with "Other" if incident_severity is "Trivial Damage" or "Minor Damage".
-- Replace "?" values in the police_report_available column with "YES" if authorities_contacted is "Police", "Ambulance", or "Fire", otherwise replace with "NO".
-- Replace "?" values in the property_damage column with "YES" if property_claim exists, otherwise replace with "NO".
+To handle missing values and "?" values in the dataset:
 
-**These adjustments maintain the integrity of the entire dataset, which consists of 1000 entries.**
+- Missing values in the 'authorities_contacted' column are replaced with "Other".
+- "?" values in the 'collision_type' column are replaced with "Other" if incident_severity is "Trivial Damage" or "Minor Damage".
+- "?" values in the 'police_report_available' column are replaced with "YES" if authorities_contacted is "Police", "Ambulance", or "Fire"; otherwise, they are replaced with "NO".
+- "?" values in the 'property_damage' column are replaced with "YES" if property_claim exists; otherwise, they are replaced with "NO".
 
+### Models and Evaluation
 
-** Would you trust this model to detect if a fraud will be detected?**
+Four machine learning models were trained and evaluated:
 
-## Datasets used: 
-[https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data](https://www.kaggle.com/code/niteshyadav3103/insurance-fraud-detection-using-12-models/input)
+- **Support Vector Classifier (SVC)**
+  - Test Accuracy: 0.776
+  - Precision (N): 0.85
+  - Recall (N): 0.84
+  - F1-score (N): 0.85
+  - Precision (Y): 0.57
+  - Recall (Y): 0.59
+  - F1-score (Y): 0.58
 
-## Code snippets
+- **K-Nearest Neighbors (KNN)**
+  - Test Accuracy: 0.692
+  - Precision (N): 0.77
+  - Recall (N): 0.82
+  - F1-score (N): 0.80
+  - Precision (Y): 0.40
+  - Recall (Y): 0.33
+  - F1-score (Y): 0.36
 
+- **Random Forest Classifier**
+  - Accuracy Score: 0.76
+  - Precision (N): 0.82
+  - Recall (N): 0.87
+  - F1-score (N): 0.84
+  - Precision (Y): 0.56
+  - Recall (Y): 0.45
+  - F1-score (Y): 0.50
 
+- **Decision Tree Classifier**
+  - Accuracy Score: 0.708
+  - Precision (N): 0.81
+  - Recall (N): 0.79
+  - F1-score (N): 0.80
+  - Precision (Y): 0.45
+  - Recall (Y): 0.48
+  - F1-score (Y): 0.47
 
-## Limitations
-- Amad
+### Feature Importance
 
-## Presentation
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/dc7ee556-73ed-460e-af3f-e211c3cd9cbc)
+The top 10 most important features for predicting insurance claims fraud are:
 
-**Random_Forest**
+1. incident_severity_Major Damage
+2. vehicle_claim
+3. property_claim
+4. total_claim_amount
+5. injury_claim
+6. policy_annual_premium
+7. months_as_customer
+8. incident_hour_of_the_day
+9. age
+10. incident_severity_Minor Damage
 
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/61b0cb77-d887-402e-a0d6-b5a133936c28)
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/6514220d-c7e4-49b7-8139-531471b3514c)
+### Conclusion
 
-
-**Support vector machine linear classifier**
-
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/ad41e605-2997-4a65-8638-202e650f1638)
-
-
-**KNN_classifier**
-
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/270def0c-4f1f-4709-9c33-d13bbe5117c0)
-
-**Decision Tree**
-
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/039b7629-e557-48ba-9cfa-ac7bb33f87b7)
-
-![transactions_tree (1)](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/e9f9114c-0e8a-489b-8b69-12f470173074)
-
+Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. The features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
