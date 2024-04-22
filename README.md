@@ -27,3 +27,10 @@ https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data
 
 ## Presentation
 ![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/dc7ee556-73ed-460e-af3f-e211c3cd9cbc)
+
+**insurance_claim_KNN_classifier**
+![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/270def0c-4f1f-4709-9c33-d13bbe5117c0)
+
+**insurance_claim_ Decision Tree Model2**
+![transactions_tree (1)](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/e9f9114c-0e8a-489b-8b69-12f470173074)
+
