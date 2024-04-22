@@ -2,6 +2,8 @@
 # Insurance Fraud Prediction Model
 Final Project for Data Analytics Boot Camp
 
+-- TBD  ---
+
 ## Background 
 ABC Insurance has requested you, as a data analyst, to build a model for identifying the risk of insurance fraud using their historical claims activity dataset. 
 They aim to establish an insurance fraud management system.
