@@ -1,0 +1,12 @@
+Insurance_Fraud_Prediction_Model/
+│
+├── app.py
+│
+├── models/
+│   ├── svc_model.sav
+│   └── rf_model.sav
+│
+└── templates/
+    ├── index.html
+    ├── result.html
+    └── history.html
