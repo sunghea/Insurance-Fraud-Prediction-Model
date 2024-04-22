@@ -39,50 +39,33 @@ To handle missing values and "?" values in the dataset:
 - "?" values in the 'police_report_available' column are replaced with "YES" if authorities_contacted is "Police", "Ambulance", or "Fire"; otherwise, they are replaced with "NO".
 - "?" values in the 'property_damage' column are replaced with "YES" if property_claim exists; otherwise, they are replaced with "NO".
 
-### Models and Evaluation
+**Models and Evaluation**
 
 Four machine learning models were trained and evaluated:
 
-- **Support Vector Classifier (SVC)**
-  - Test Accuracy: 0.776
-  - Precision (N): 0.85
-  - Recall (N): 0.84
-  - F1-score (N): 0.85
-  - Precision (Y): 0.57
-  - Recall (Y): 0.59
-  - F1-score (Y): 0.58
+**Support Vector Classifier (SVC)**
+- Test Accuracy: 0.776
+- Precision (N): 0.85, Recall (N): 0.84, F1-score (N): 0.85
+- Precision (Y): 0.57, Recall (Y): 0.59, F1-score (Y): 0.58
 
-- **K-Nearest Neighbors (KNN)**
-  - Test Accuracy: 0.692
-  - Precision (N): 0.77
-  - Recall (N): 0.82
-  - F1-score (N): 0.80
-  - Precision (Y): 0.40
-  - Recall (Y): 0.33
-  - F1-score (Y): 0.36
+**K-Nearest Neighbors (KNN)**
+- Test Accuracy: 0.692
+- Precision (N): 0.77, Recall (N): 0.82, F1-score (N): 0.80
+- Precision (Y): 0.40, Recall (Y): 0.33, F1-score (Y): 0.36
 
-- **Random Forest Classifier**
-  - Accuracy Score: 0.76
-  - Precision (N): 0.82
-  - Recall (N): 0.87
-  - F1-score (N): 0.84
-  - Precision (Y): 0.56
-  - Recall (Y): 0.45
-  - F1-score (Y): 0.50
+**Random Forest Classifier**
+- Accuracy Score: 0.76
+- Precision (N): 0.82, Recall (N): 0.87, F1-score (N): 0.84
+- Precision (Y): 0.56, Recall (Y): 0.45, F1-score (Y): 0.50
 
-- **Decision Tree Classifier**
-  - Accuracy Score: 0.708
-  - Precision (N): 0.81
-  - Recall (N): 0.79
-  - F1-score (N): 0.80
-  - Precision (Y): 0.45
-  - Recall (Y): 0.48
-  - F1-score (Y): 0.47
+**Decision Tree Classifier**
+- Accuracy Score: 0.708
+- Precision (N): 0.81, Recall (N): 0.79, F1-score (N): 0.80
+- Precision (Y): 0.45, Recall (Y): 0.48, F1-score (Y): 0.47
 
-### Feature Importance
+**Feature Importance**
 
 The top 10 most important features for predicting insurance claims fraud are:
-
 1. incident_severity_Major Damage
 2. vehicle_claim
 3. property_claim
@@ -94,6 +77,7 @@ The top 10 most important features for predicting insurance claims fraud are:
 9. age
 10. incident_severity_Minor Damage
 
-### Conclusion
+**Conclusion**
 
-Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. The features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
+Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. Features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
+
