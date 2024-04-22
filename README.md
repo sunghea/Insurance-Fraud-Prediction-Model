@@ -10,7 +10,15 @@ They aim to establish an insurance fraud management system.
 
 Part 1: Extract from Excel
 
-Insurance fraud can be committed by agents, customers, and vendors, either individually or in collusion.
+
+o handle missing values and "?" values:
+
+Replace missing values in the authorities_contacted column with "Other".
+Replace "?" values in the collision_type column with "Other" if incident_severity is "Trivial Damage" or "Minor Damage".
+Replace "?" values in the police_report_available column with "YES" if authorities_contacted is "Police", "Ambulance", or "Fire", otherwise replace with "NO".
+Replace "?" values in the property_damage column with "YES" if property_claim exists, otherwise replace with "NO".
+These adjustments maintain the integrity of the entire dataset, which consists of 1000 entries.
+
 
 ** Would you trust this model to detect if a fraud will be detected?**
 
