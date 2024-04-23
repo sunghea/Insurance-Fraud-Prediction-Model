@@ -82,6 +82,12 @@ The top 10 most important features for predicting insurance claims fraud are:
 Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. Features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
 
 
+# Insurance Fraud Prediction Model
+
+This project aims to predict insurance claim fraud using machine learning models.
+
+## Project Structure
+
 Insurance_Fraud_Prediction_Model/
 │
 ├── insurance_claim__Decision_Tree_Model_final
@@ -89,10 +95,10 @@ Insurance_Fraud_Prediction_Model/
 ├── app.py
 │
 ├── models/
-│   └── svc_model.sav
+│ └── svc_model.sav
 │
 └── templates/
-    └── index.html
+└── index.html
 
 ![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/32f7a0ce-aaa9-4f7d-a33e-2b16b5541795)
 
