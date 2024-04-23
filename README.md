@@ -82,9 +82,7 @@ The top 10 most important features for predicting insurance claims fraud are:
 Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. Features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
 
 
-# Insurance Fraud Prediction Model
-
-This project aims to predict insurance claim fraud using machine learning models.
+# Presentation
 
 ## Project Structure
 
