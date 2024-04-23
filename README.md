@@ -88,18 +88,8 @@ This project aims to predict insurance claim fraud using machine learning models
 
 ## Project Structure
 
-Insurance_Fraud_Prediction_Model/
-|
+![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/4976607f-f19d-4d1e-9c48-014d2aedd703)
 
-├── insurance_claim__Decision_Tree_Model_final
-│
-├── app.py
-│
-├── models/
-│ └── svc_model.sav
-│
-└── templates/
-└── index.html
 
 ![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/32f7a0ce-aaa9-4f7d-a33e-2b16b5541795)
 
