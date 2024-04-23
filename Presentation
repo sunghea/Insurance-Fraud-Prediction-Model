@@ -1,26 +1,13 @@
 Insurance_Fraud_Prediction_Model/
 │
+├── insurance_claim__Decision_Tree_Model_final
+│
 ├── app.py
 │
 ├── models/
-│   ├── svc_model.sav
-│   └── rf_model.sav
+│   └── svc_model.sav
 │
 └── templates/
-    ├── index.html
-    ├── result.html
-    └── history.html
+    └── index.html
 
-Insurance_Fraud_Prediction_Model/
-│
-├── app.py
-│
-├── static\data/
-│   ├── X_train_first_10.csv
-├── models/
-│   └── svc_model.pkl
-│
-└── templates/
-    ├── index.html
-    ├── result.html
-    └── history.html
+
