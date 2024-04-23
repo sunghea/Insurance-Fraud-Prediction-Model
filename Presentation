@@ -11,7 +11,6 @@ Insurance_Fraud_Prediction_Model/
     ├── result.html
     └── history.html
 
-
 Insurance_Fraud_Prediction_Model/
 │
 ├── app.py
@@ -19,8 +18,7 @@ Insurance_Fraud_Prediction_Model/
 ├── static\data/
 │   ├── X_train_first_10.csv
 ├── models/
-│   ├── svc_model.sav
-│   └── rf_model.sav
+│   └── svc_model.pkl
 │
 └── templates/
     ├── index.html
