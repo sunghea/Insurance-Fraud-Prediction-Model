@@ -89,7 +89,8 @@ This project aims to predict insurance claim fraud using machine learning models
 ## Project Structure
 
 Insurance_Fraud_Prediction_Model/
-│
+|
+
 ├── insurance_claim__Decision_Tree_Model_final
 │
 ├── app.py
