@@ -10,3 +10,19 @@ Insurance_Fraud_Prediction_Model/
     ├── index.html
     ├── result.html
     └── history.html
+
+
+Insurance_Fraud_Prediction_Model/
+│
+├── app.py
+│
+├── static\data/
+│   ├── X_train_first_10.csv
+├── models/
+│   ├── svc_model.sav
+│   └── rf_model.sav
+│
+└── templates/
+    ├── index.html
+    ├── result.html
+    └── history.html
