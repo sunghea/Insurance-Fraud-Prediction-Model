@@ -98,12 +98,9 @@ Based on the evaluation results, the Support Vector Classifier and Random Forest
 
 ![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/9ae9b79a-1109-4dd2-b917-ec1283f89530)
 
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/bb8e2552-c17a-40dd-b8ae-a5ca4746cec5)
-
-
 ## Checking the prediction functionality of the saved model
 
-![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/32f7a0ce-aaa9-4f7d-a33e-2b16b5541795)
+![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/bb8e2552-c17a-40dd-b8ae-a5ca4746cec5)
 
 ![image](https://github.com/sunghea/Insurance_Fraud_Detection_Model/assets/143130002/b3e9b867-202c-4d89-85ce-6868b18fa7be)
 
