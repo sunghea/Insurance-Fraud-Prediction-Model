@@ -1,3 +1,7 @@
+# Presentation - part 1
+
+https://github.com/sunghea/Insurance_Fraud_Detection_Model/blob/main/insurance_claim_Modeling_Final_04232024.ipynb
+
 ## Insurance Claims Fraud Detection
 
 This project aims to predict insurance claims fraud using machine learning algorithms. The dataset used in this project is obtained from Kaggle and contains information about insurance claims, including policy details, incident details, and whether the claim was fraudulent or not.
@@ -82,9 +86,7 @@ The top 10 most important features for predicting insurance claims fraud are:
 Based on the evaluation results, the Support Vector Classifier and Random Forest Classifier perform relatively better compared to the other models. Features such as incident severity, claim amounts, policy details, and customer information play crucial roles in predicting insurance claims fraud. However, further tuning and optimization of the models could potentially improve their performance.
 
 
-# Presentation
-
-https://github.com/sunghea/Insurance_Fraud_Detection_Model/blob/main/insurance_claim_Modeling_Final_04232024.ipynb
+# Presentation - part 2
 
 ## Structure
 
