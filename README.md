@@ -1,7 +1,3 @@
-# Presentation - part 1
-
-https://github.com/sunghea/Insurance_Fraud_Detection_Model/blob/main/insurance_claim_Modeling_Final_04232024.ipynb
-
 ## Insurance Claims Fraud Detection
 
 This project aims to predict insurance claims fraud using machine learning algorithms. The dataset used in this project is obtained from Kaggle and contains information about insurance claims, including policy details, incident details, and whether the claim was fraudulent or not.
